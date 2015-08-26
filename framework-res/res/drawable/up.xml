@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android.oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="25" android:drawable="@drawable/up01" />
+    <item android:duration="25" android:drawable="@drawable/up02" />
+    <item android:duration="25" android:drawable="@drawable/up03" />
+    <item android:duration="25" android:drawable="@drawable/up04" />
+    <item android:duration="25" android:drawable="@drawable/up05" />
+    <item android:duration="25" android:drawable="@drawable/up06" />
+    <item android:duration="25" android:drawable="@drawable/up07" />
+    <item android:duration="25" android:drawable="@drawable/up08" />
+    <item android:duration="25" android:drawable="@drawable/up09" />
+    <item android:duration="25" android:drawable="@drawable/up10" />
+    <item android:duration="25" android:drawable="@drawable/up11" />
+    <item android:duration="25" android:drawable="@drawable/up12" />
+    <item android:duration="25" android:drawable="@drawable/up13" />
+    <item android:duration="25" android:drawable="@drawable/up14" />
+    <item android:duration="25" android:drawable="@drawable/up15" />
+    <item android:duration="25" android:drawable="@drawable/up16" />
+    <item android:duration="25" android:drawable="@drawable/up17" />
+    <item android:duration="25" android:drawable="@drawable/up18" />
+    <item android:duration="25" android:drawable="@drawable/up19" />
+    <item android:duration="25" android:drawable="@drawable/up20" />
+    <item android:duration="25" android:drawable="@drawable/up21" />
+    <item android:duration="25" android:drawable="@drawable/up22" />
+</animation-list>

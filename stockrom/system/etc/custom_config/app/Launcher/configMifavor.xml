@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="install_start_page">-1</integer>
+    <integer name="stk_install_start_page">0</integer>
+    <!-- zhuyan config workspace screen count and default screen -->
+    <integer name="config_desktopScreens">5</integer>
+    <integer name="config_defaultScreen">2</integer>
+    <!-- zhuyan config default deskEffect -->
+    <integer name="defalt_effect_type">0</integer>
+
+
+    <bool name="not_need_lock_setting">false</bool>
+    <bool name="is_dual">false</bool>
+    <bool name="config_cycle_screen">true</bool>
+    <bool name="main_menu_wallpaper">true</bool>
+    <bool name="not_need_lock_wallpaper">false</bool>
+    <bool name="need_widget_center_text">false</bool>
+    <bool name="hide_downloader_app_icon">false</bool>
+    <bool name="hide_quick_search_bar">false</bool>
+    <bool name="check_unicom_app">false</bool>
+
+    <dimen name="navigation_bar_height">0dp</dimen>
+
+    <bool name="support_set_wallpaper_for_both">true</bool>
+
+    <bool name="config_show_lockweather">true</bool>
+    <bool name="support_lockweather_setting">true</bool>
+    <bool name="support_lockgesture_setting">true</bool>
+
+<bool name="support_screenedit_setting">true</bool>
+    <bool name="support_theme_change">true</bool>
+    <bool name="support_lockscreen_setting">true</bool>
+    <bool name="support_statusbar_setting">true</bool>
+        <bool name="support_screen_cycle_setting">false</bool>
+        <bool name="support_show_badges_setting">false</bool>
+
+<!-- zhanddongming ScaleBitmap -->
+     <bool name="config_scale_bimap">false</bool>
+     <fraction  name="config_scale_bimap_scale">100%</fraction >
+
+     <!--ConfigDrawWallpaper-->
+     <bool name="config_draw_wallpaper_self">true</bool>
+     <!--MainmenuTransitionAni-->
+	<!-- lcj for config weaher cp  2010312-->
+      <bool name="config_weather_cp">true</bool>
+      <!--end lcj for config weaher cp  2010312-->
+     <bool name="mainmenu_transition_animation">false</bool>
+     <bool name="mainmenu_enter_animation">true</bool>
+    <bool name="config_mainmenu_icons">true</bool>
+     <!-- show sms,email,missed call at workspace -->
+     <bool name="enable_show_info">true</bool>
+
+<!-- for projects of turkey-->
+     <bool name="turkey">false</bool>
+
+     <bool name="workspace_icon_text_double_line">false</bool>
+     <integer name="mainmenu_icon_textsize">-1</integer>
+     <integer name="workspace_icon_textsize">-1</integer>
+     <!--zhuyan add for anto-reminder,show_badges,gesture -->
+     <bool name="config_auto_reminder">true</bool>
+     <bool name="config_show_badges">true</bool>
+     <bool name="config_gesture">false</bool>
+<bool name="config_notication_preferred">true</bool>
+<integer name="default_appfilter">0</integer>
+<bool name="customize_menu">true</bool>
+
+  <!--added by zdm for wallpaer and effect start-->
+  <integer name="apps_customize_effect_gridlayout_rowCount">3</integer>
+  <integer name="apps_customize_effect_gridlayout_columnCount">4</integer>
+  <bool name="config_wallpaper_both">true</bool>
+  <!--added by zdm for wallpaer and effect end-->
+    <!--Aded bu suzaiqiang for screen edit animation duration -->
+    <integer name="screen_item_animation_time">300</integer>
+    <integer name="workspace_animation_time">300</integer>
+    <!--End aded bu suzaiqiang for screen edit animation duration-->
+    <integer name="workspace_max_screen">9</integer>
+    <bool name="default_wallpaper_is_single">true</bool>
+    <bool name="support_workspace_up_gesture">true</bool>
+    <bool name="support_workspace_down_gesture">true</bool>
+    <integer name="wallpaper_alpha_blur">0</integer>
+    <bool name="support_wallpaper_alpha_blur">true</bool>
+    <bool name="support_lockscreen_wallpaper_setting">true</bool>
+    <bool name="stk_need_bg_icon">false</bool>
+    <bool name="browser_need_bg_icon">false</bool>
+    <bool name="gong_xin_bu_ce_shi">false</bool>
+
+    <!--默认加背板-->
+    <bool name="default_need_icon_bg">true</bool>
+</resources>

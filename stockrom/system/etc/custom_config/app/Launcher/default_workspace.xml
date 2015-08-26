@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.zte.milauncher">
+	<!--  screen  [0]   -->
+	<appwidget
+		launcher:packageName="com.zte.heartyservice"
+		launcher:className="com.zte.heartyservice.appwidget.SpeedupWidgetProvider"
+		launcher:screen="0"
+		launcher:x="0"
+		launcher:y="4"
+		launcher:spanX="1"
+		launcher:spanY="1" />
+	<favorite
+		launcher:packageName="com.zte.backup.mmi"
+		launcher:className="com.zte.backup.view_blueBG.StartActivity"
+		launcher:screen="0"
+		launcher:x="1"
+		launcher:y="4" />
+	<favorite
+		launcher:packageName="com.android.MiEasyMode"
+		launcher:className="com.android.MiEasyMode.ELauncher.HomeActivity"
+		launcher:screen="0"
+		launcher:x="2"
+		launcher:y="4" />
+	<favorite
+		launcher:packageName="cn.zte.music"
+		launcher:className="cn.zte.music.activity.MusicBrowserActivity"
+		launcher:screen="0"
+		launcher:x="3"
+		launcher:y="4" />
+	<!--  screen  [1]   -->
+	<appwidget
+		launcher:packageName="com.hyper.dooreme"
+		launcher:className="com.hyper.dooreme.appwidget.parts.DrmHotProvider"
+		launcher:screen="1"
+		launcher:x="0"
+		launcher:y="0"
+		launcher:spanX="4"
+		launcher:spanY="4" />
+	<!--  screen  [2]   -->
+	<appwidget
+		launcher:packageName="com.zte.appwidget.hfweather"
+		launcher:className="com.zte.appwidget.hfweather.HFWeatherWidget"
+		launcher:screen="2"
+		launcher:x="0"
+		launcher:y="0"
+		launcher:spanX="4"
+		launcher:spanY="2" />
+	<folder
+		launcher:title="网页链接"
+		launcher:screen="2"
+		launcher:x="0"
+		launcher:y="4" >
+		<shortcut
+            launcher:title="优酷"
+            launcher:icon="@drawable/home_quick_youku"
+            launcher:uri="http://www.youku.com/#Intent;action=android.intent.action.ume.browser;S.com.android.browser.application_id=-4134824405556380416;end"
+        />
+
+	    <shortcut
+            launcher:title="搜狐新闻"
+            launcher:icon="@drawable/home_quick_sohu"
+            launcher:uri="http://m.k.sohu.com/#Intent;action=android.intent.action.ume.browser;S.com.android.browser.application_id=-8784425416024442544;end"
+        />
+
+	    <shortcut
+            launcher:title="QQ音乐"
+            launcher:icon="@drawable/home_quick_qqmusic"
+            launcher:uri="http://m.y.qq.com/#Intent;action=android.intent.action.ume.browser;S.com.android.browser.application_id=8415639820895699192;end"
+        />
+
+        <shortcut
+            launcher:title="淘宝"
+            launcher:icon="@drawable/home_quick_taobao"
+            launcher:uri="http://m.taobao.com/#Intent;action=android.intent.action.ume.browser;S.com.android.browser.application_id=-8515547428070602432;end"
+        />
+
+        <shortcut
+            launcher:title="东方财付通"
+            launcher:icon="@drawable/home_quick_caifu"
+            launcher:uri="http://wap.eastmoney.cn/#Intent;action=android.intent.action.ume.browser;S.com.android.browser.application_id=-2792395874265869856;end"
+        />
+
+        <shortcut
+            launcher:title="新浪网"
+            launcher:icon="@drawable/home_quick_sina"
+            launcher:uri="http://www.sina.com.cn/#Intent;action=android.intent.action.ume.browser;S.com.android.browser.application_id=-6055852917872597584;end"
+        />
+		<shortcut
+            launcher:title="搜狐网"
+            launcher:icon="@drawable/home_quick_sohu"
+            launcher:uri="http://www.sohu.com/#Intent;action=android.intent.action.ume.browser;S.com.android.browser.application_id=3796359432705349528;end"
+        />
+		<shortcut
+            launcher:title="凤凰网"
+            launcher:icon="@drawable/home_quick_fenghuang"
+            launcher:uri="http://www.ifeng.com/#Intent;action=android.intent.action.ume.browser;S.com.android.browser.application_id=6078515087396108680;end"
+        />
+		<shortcut
+            launcher:title="新华网"
+            launcher:icon="@drawable/home_quick_xinhua"
+            launcher:uri="http://www.xinhuanet.com/#Intent;action=android.intent.action.ume.browser;S.com.android.browser.application_id=-241249896748620752;end"
+        />
+		<shortcut
+            launcher:title="天翼手机网"
+            launcher:icon="@drawable/home_quick_tianyi"
+            launcher:uri="http://www.hicdma.com/#Intent;action=android.intent.action.ume.browser;S.com.android.browser.application_id=-2798079670778360536;end"
+        />
+		<shortcut
+            launcher:title="人民网"
+            launcher:icon="@drawable/home_quick_renmin"
+            launcher:uri="http://www.people.com.cn/#Intent;action=android.intent.action.ume.browser;S.com.android.browser.application_id=3873123859931326808;end"
+        />
+		<shortcut
+            launcher:title="星星论坛"
+            launcher:icon="@drawable/home_quick_zxing"
+            launcher:uri="http://www.myzte.cn/#Intent;action=android.intent.action.ume.browser;S.com.android.browser.application_id=-8986192482679344264;end"
+        />
+		<shortcut
+            launcher:title="中兴商城"
+            launcher:icon="@drawable/home_quick_zteshop"
+            launcher:uri="http://www.myzte.com/#Intent;action=android.intent.action.ume.browser;S.com.android.browser.application_id=-1870793306688770144;end"
+        />
+
+	</folder>
+	<favorite
+	    launcher:packageName="com.lqsoft.launcher"
+		launcher:className="com.lqsoft.launcher.LiveLauncher"		
+		launcher:screen="2"
+		launcher:x="1"
+		launcher:y="4" />
+	<favorite
+		launcher:packageName="com.android.settings"
+		launcher:className="com.android.settings.BlackGestureSettings"
+		launcher:screen="2"
+		launcher:x="2"
+		launcher:y="4" />
+	<favorite
+		launcher:packageName="com.zte.camera"
+		launcher:className="com.zte.camera.CameraActivity"
+		launcher:screen="2"
+		launcher:x="3"
+		launcher:y="4" />
+	<!--  screen  [3]   -->
+	<appwidget
+		launcher:packageName="com.hyper.dooreme"
+		launcher:className="com.hyper.dooreme.appwidget.DrmAppWidgetProvider"
+		launcher:screen="3"
+		launcher:x="0"
+		launcher:y="0"
+		launcher:spanX="4"
+		launcher:spanY="4" />
+	<!--  Hotseat (We use the screen as the position of the item in the hotseat)  -->
+    <apps
+        launcher:packageName="com.android.apps"
+        launcher:className="com.android.apps.appsActivity"
+        launcher:container="-101"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0" />
+	<!--  Hotseat (We use the screen as the position of the item in the hotseat)  -->
+	<favorite
+		launcher:packageName="com.android.contacts"
+		launcher:className="com.android.contacts.activities.DialtactsActivity"
+		launcher:container="-101"
+		launcher:screen="0"
+		launcher:x="0"
+		launcher:y="0" />
+	<!--  Hotseat (We use the screen as the position of the item in the hotseat)  -->
+	<favorite
+		launcher:packageName="com.android.contacts"
+		launcher:className="com.android.contacts.activities.PeopleActivity"
+		launcher:container="-101"
+		launcher:screen="1"
+		launcher:x="1"
+		launcher:y="0" />
+	<!--  Hotseat (We use the screen as the position of the item in the hotseat)  -->
+	<favorite
+		launcher:packageName="com.android.mms"
+		launcher:className="com.android.mms.ui.MainUISelectionActivity"
+		launcher:container="-101"
+		launcher:screen="3"
+		launcher:x="3"
+		launcher:y="0" />
+	<!--  Hotseat (We use the screen as the position of the item in the hotseat)  -->
+	<favorite
+		launcher:packageName="com.ume.browser"
+		launcher:className="com.ume.browser.MainActivity"
+		launcher:container="-101"
+		launcher:screen="4"
+		launcher:x="4"
+		launcher:y="0" />
+</favorites>

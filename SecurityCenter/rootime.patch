@@ -1,0 +1,32 @@
+From 8f4fa312d2857d9a6b50729bfd06121a50a05335 Mon Sep 17 00:00:00 2001
+From: wangtongli <276792882@qq.com>
+Date: Wed, 29 Apr 2015 21:50:26 +0800
+Subject: [PATCH] set root time 5s to 2s
+
+---
+ SecurityCenter/smali/com/miui/permcenter/root/RootApplyActivity.smali | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+--- a/SecurityCenter/smali/com/miui/permcenter/root/RootApplyActivity.smali
++++ b/SecurityCenter/smali/com/miui/permcenter/root/RootApplyActivity.smali
+@@ -35,7 +35,7 @@
+ 
+     iput v0, p0, Lcom/miui/permcenter/root/RootApplyActivity;->mCurrentStep:I
+ 
+-    const/4 v0, 0x5
++    const/4 v0, 0x1
+ 
+     iput v0, p0, Lcom/miui/permcenter/root/RootApplyActivity;->mAutoNextStepTime:I
+ 
+@@ -300,7 +300,7 @@
+     .prologue
+     const/4 v6, 0x1
+ 
+-    const/4 v3, 0x5
++    const/4 v3, 0x1
+ 
+     const/4 v5, 0x0
+ 
+-- 
+1.9.1
+

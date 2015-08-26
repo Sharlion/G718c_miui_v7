@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contacts version="6">
+<names locale="en_US">
+    <name id="国际漫游免费服务热线">
+        <number>+8618918910000</number>
+    </name>
+</names>
+<names locale="zh_CN">
+    <name id="国际漫游免费服务热线">
+        <number>+8618918910000</number>
+    </name>
+</names>
+</contacts>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packages>
+    <package id = "1">
+      <name>com.tencent.mobileqq</name>
+      <interval>1</interval>
+    </package>
+    <package id = "2">
+      <name>com.sina.weibo</name>
+      <interval>1</interval>
+    </package>
+    <package id = "3">
+      <name>com.hf</name>
+      <interval>1</interval>
+    </package>
+    <package id = "4">
+      <name>com.baidu.searchbox_tianyi</name>
+      <interval>1</interval>
+    </package>
+    <package id = "5">
+      <name>com.tencent.mm</name>
+      <interval>1</interval>
+    </package>
+    <package id = "6">
+      <name>im.yixin</name>
+      <interval>1</interval>
+    </package>
+    <package id = "7">
+      <name>com.jingdong.app.mall</name>
+      <interval>1</interval>
+    </package>
+    <package id = "8">
+      <name>com.youku.phone</name>
+      <interval>1</interval>
+    </package>
+    <package id = "9">
+      <name>com.imangi.templerun2</name>
+      <interval>Force</interval>
+    </package>
+    <package id = "10">
+      <name>com.Qunar</name>
+      <interval>1</interval>
+    </package>
+    <package id = "11">
+      <name>com.sds.android.ttpod</name>
+      <interval>1</interval>
+    </package>
+    <package id = "12">
+      <name>com.tencent.news</name>
+      <interval>1</interval>
+    </package>
+    <package id = "13">
+      <name>com.moji.mjweather</name>
+      <interval>1</interval>
+    </package>
+    <package id = "14">
+      <name>com.baidu.appsearch</name>
+      <interval>1</interval>
+    </package>
+    <package id = "15">
+      <name>com.tencent.mtt</name>
+      <interval>1</interval>
+    </package>
+    <package id = "16">
+      <name>com.qzone</name>
+      <interval>1</interval>
+    </package>
+    <package id = "17">
+      <name>com.qiyi.video</name>
+      <interval>1</interval>
+    </package>
+    <package id = "18">
+      <name>com.zte.heartyservice</name>
+      <interval>1</interval>
+    </package>
+    <package id = "19">
+      <name>tv.pps.mobile</name>
+      <interval>1</interval>
+    </package>
+    <package id = "20">
+      <name>com.taobao.taobao</name>
+      <interval>1</interval>
+    </package>
+    <package id = "21">
+      <name>com.example.alarmtest</name>
+      <interval>1</interval>
+    </package>
+    <package id = "22">
+      <name>com.zte.zdm</name>
+      <interval>1</interval>
+    </package>
+    <package id = "23">
+      <name>android</name>
+      <interval>1</interval>
+    </package>
+    <package id = "24">
+      <name>com.android.phone</name>
+      <interval>1</interval>
+    </package>
+</packages>

@@ -1,0 +1,32 @@
+From a7b89259da64c4c44b4c3878898e56977dd96d8e Mon Sep 17 00:00:00 2001
+From: heavenke <316768209@qq.com>
+Date: Sat, 16 May 2015 00:56:14 +0800
+Subject: [PATCH] Fix MiuiGallery
+
+---
+ MiuiGallery/smali/com/miui/gallery/StorageExplorer/StorageUtils.smali | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+--- a/MiuiGallery/smali/com/miui/gallery/StorageExplorer/StorageUtils.smali
++++ b/MiuiGallery/smali/com/miui/gallery/StorageExplorer/StorageUtils.smali
+@@ -2117,7 +2117,7 @@
+     .prologue
+     sget-boolean v0, Lmiui/os/Build;->IS_HONGMI_TWO:Z
+ 
+-    if-eqz v0, :cond_0
++    if-nez v0, :cond_0
+ 
+     sget-boolean v0, Lmiui/os/Build;->IS_HONGMI_TWO_A:Z
+ 
+@@ -2133,7 +2133,7 @@
+     return v0
+ 
+     :cond_0
+-    const/4 v0, 0x0
++    const/4 v0, 0x1
+ 
+     goto :goto_0
+ .end method
+-- 
+1.9.1
+
